@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpicyCart</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="css/signin.css" type="text/css">
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SpicyCart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="index.html#product">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex flex-row" role="search">
+          <input class="form-control mt-sm-1 me-2" type="search" placeholder="Search" aria-label="Search">
+          <button type="submit" class="btn btn-success me-3">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Home-->
+  <section id="Home">
+    <h1 class="text-center">ORGANIC SPICES</h1>
+    <p>Variety's the very spice of life,That gives it all its flavor</p>
+    <form class="box" action="signinAction" method="post">
+      <div class="input-group m-2">
+        <input type="text" class="form-control" placeholder="Email Address">
+      </div>
+      <div class="input-group m-2">
+        <input type="text" class="form-control" placeholder="password">
+      </div>
+      <div class="input-group order-middle ms-5">
+        <a href="#">Forgot Password?</a>
+      </div>
+      <div>
+        <button class="btn signinbtn" type="submit">Get Started</button>
+      </div>
+      <div class="order-last mt-2">
+        <a href="signup.html">Don't have an account? Sign Up</a>
+      </div>
+      <!--signin with google with icon-->
+      <div class="order-last mt-2">
+        <a href="#">Sign in with Google<i class="ms-2 fa-brands fa-google"></i></a>
+      </div>
+    </form>
+  </section>
+    <!-- Js Plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="js/main.js"></script>
+
+
+
+</html>
